@@ -1,0 +1,136 @@
+{
+ "runs": [
+  {
+   "name": "dense city",
+   "query": "emergency plumbing services New York",
+   "ll": "@40.7455096,-74.0083012,14z",
+   "pages_fetched": 12,
+   "last_nonempty_page": 12,
+   "hit_empty_page": false,
+   "total_rows": 240,
+   "unique_places": 189,
+   "duplicates": 51,
+   "dup_share": 0.212,
+   "dedup_key": "title + kgmid (as in the workflow's Remove Duplicates node)",
+   "coverage": {
+    "phone": {
+     "n": 188,
+     "share": 0.9947
+    },
+    "website": {
+     "n": 144,
+     "share": 0.7619
+    },
+    "address": {
+     "n": 162,
+     "share": 0.8571
+    }
+   },
+   "credits_per_request": 5,
+   "credits_spent": 60,
+   "pages": [
+    {
+     "page": 1,
+     "status": 200,
+     "rows": 20
+    },
+    {
+     "page": 2,
+     "status": 200,
+     "rows": 20
+    },
+    {
+     "page": 3,
+     "status": 200,
+     "rows": 20
+    },
+    {
+     "page": 4,
+     "status": 200,
+     "rows": 20
+    },
+    {
+     "page": 5,
+     "status": 200,
+     "rows": 20
+    },
+    {
+     "page": 6,
+     "status": 200,
+     "rows": 20
+    },
+    {
+     "page": 7,
+     "status": 200,
+     "rows": 20
+    },
+    {
+     "page": 8,
+     "status": 200,
+     "rows": 20
+    },
+    {
+     "page": 9,
+     "status": 200,
+     "rows": 20
+    },
+    {
+     "page": 10,
+     "status": 200,
+     "rows": 20
+    },
+    {
+     "page": 11,
+     "status": 200,
+     "rows": 20
+    },
+    {
+     "page": 12,
+     "status": 200,
+     "rows": 20
+    }
+   ]
+  },
+  {
+   "name": "narrow small town",
+   "query": "emergency plumbing services Ely Nevada",
+   "ll": "@39.2472,-114.8888,14z",
+   "pages_fetched": 2,
+   "last_nonempty_page": 1,
+   "hit_empty_page": true,
+   "total_rows": 8,
+   "unique_places": 8,
+   "duplicates": 0,
+   "dup_share": 0.0,
+   "dedup_key": "title + kgmid (as in the workflow's Remove Duplicates node)",
+   "coverage": {
+    "phone": {
+     "n": 8,
+     "share": 1.0
+    },
+    "website": {
+     "n": 6,
+     "share": 0.75
+    },
+    "address": {
+     "n": 5,
+     "share": 0.625
+    }
+   },
+   "credits_per_request": 5,
+   "credits_spent": 10,
+   "pages": [
+    {
+     "page": 1,
+     "status": 200,
+     "rows": 8
+    },
+    {
+     "page": 2,
+     "status": 200,
+     "rows": 0
+    }
+   ]
+  }
+ ]
+}
